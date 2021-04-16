@@ -1,0 +1,10 @@
+<div>
+  <table>
+    <tr *ngFor="let height of verticalSquares; let rowIndex = index">
+      <td *ngFor="let width of HorizontalSquares; let colIndex = index" id="box-{{ rowIndex+1 }}-{{ colIndex+1 }}" style="height:50px;width:50px" class="table-item"><img id="img-{{ rowIndex+1 }}-{{ colIndex+1 }}" class="image" src="./assets/blank.png" alt=""  height=50 width=50></td>
+    </tr>
+  </table>
+</div>
+
+  
+ 
